@@ -1,4 +1,10 @@
 package schedulerdto;
+
+import lombok.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
 //         "breaks": 0,
 //        "currency": "string",
 //        "date": {
@@ -15,7 +21,23 @@ package schedulerdto;
 //        "totalSalary": 0,
 //        "type": "string",
 //        "wage": 0
+
+@Setter
+@Getter
+@ToString
+@Builder
 public class RecordDto {
 
+    int breaks;
+    String currency;
+    List<DateDto> date;
+    int hours;
+    int id;
+    String timeFrom;
+    String timeTo;
+    String title;
+    int totalSalary;
+    String type;
+    int wage;
 
 }
