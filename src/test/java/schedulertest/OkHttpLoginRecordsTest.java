@@ -18,8 +18,8 @@ public class OkHttpLoginRecordsTest {
         OkHttpClient client = new OkHttpClient();
 
         AuthRequestRecord requestRecord = AuthRequestRecord.builder()
-                .email("a1@b1.ru")
-                .password("AAbb3'$'").build();
+                .email("igor@mail.ru")
+                .password("WwAbb3'$").build();
 
         RequestBody requestBody  = RequestBody.create(gson.toJson(requestRecord),JSON);
 

@@ -30,13 +30,13 @@ public class RecordDto {
 
     int breaks;
     String currency;
-    List<DateDto> date;
-    int hours;
+    DateDto date;
+    double hours;
     int id;
     String timeFrom;
     String timeTo;
     String title;
-    int totalSalary;
+    double totalSalary;
     String type;
     int wage;
 
