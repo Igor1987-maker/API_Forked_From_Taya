@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d8637e-c488-4d08-8c22-432197c684a7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/schedulerdto/ModelOfUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/schedulertest/APItest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/schedulertest/RestAssuredLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerdto/RecordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulerdto/RecordDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/schedulertest/OkHttpGetAllRecordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/schedulertest/OkHttpGetAllRecordsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/schedulertest/OkHttpLoginRecordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/schedulertest/OkHttpLoginRecordsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="API_Qa29_Project" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,14 +63,37 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HomeTrainigWith_API" />
   </component>
-  <component name="RunManager" selected="Gradle.OkHttpGetAllRecordsTest">
-    <configuration name="OkHttpGetAllContacts.getAllContacts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.APItest">
+    <configuration name="APItest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;contacttests.OkHttpGetAllContacts.getAllContacts&quot;" />
+        <option name="scriptParameters" value="--tests &quot;schedulertest.APItest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="APItest.secondTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;schedulertest.APItest.secondTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -86,12 +130,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OkHttpLoginRecordsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RestAssuredLoginTest.loginTestSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;schedulertest.OkHttpLoginRecordsTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;schedulertest.RestAssuredLoginTest.loginTestSuccess&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAssuredLoginTest.loginWrongPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;schedulertest.RestAssuredLoginTest.loginWrongPassword&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -109,9 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.APItest" />
+        <item itemvalue="Gradle.APItest.secondTest" />
+        <item itemvalue="Gradle.RestAssuredLoginTest.loginWrongPassword" />
+        <item itemvalue="Gradle.RestAssuredLoginTest.loginTestSuccess" />
         <item itemvalue="Gradle.OkHttpGetAllRecordsTest" />
-        <item itemvalue="Gradle.OkHttpLoginRecordsTest" />
-        <item itemvalue="Gradle.OkHttpGetAllContacts.getAllContacts" />
       </list>
     </recent_temporary>
   </component>

@@ -10,15 +10,18 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.testng:testng:7.1.0'
+    implementation 'org.testng:testng:7.4.0'
 
-    compileOnly 'org.projectlombok:lombok:1.18.16'
-    annotationProcessor 'org.projectlombok:lombok:1.18.16'
-    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+    testCompileOnly 'org.projectlombok:lombok:1.18.22'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 
-    implementation 'com.google.code.gson:gson:2.8.6'
-    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
+    implementation 'com.jayway.restassured:rest-assured:2.9.0'
+    implementation 'javax.xml.bind:jaxb-api:2.4.0-b180830.0359'
+    implementation 'org.glassfish.jaxb:jaxb-runtime:3.0.2'
 }
 
 test {
